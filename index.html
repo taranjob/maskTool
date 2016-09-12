@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <title>消息弹框</title>
+    <link rel="stylesheet" href="css/mask.css">
+</head>
+<body>
+<div>
+    <button onclick='singleClick()'>单个按钮</button>
+    <button onclick='singleClickCall()'>单个按钮回调</button>
+    <button onclick='singleClickNoHide()'>单个按钮不隐藏</button>
+    <button onclick='twoClick()'>2个按钮</button>
+    <button onclick='imgBig("https://www.baidu.com/img/bd_logo1.png")'>替换弹框html</button>
+</div>
+
+<!--信息弹框 btns.sh-cancel出现取消-->
+<section id="mask" class="mask">
+    <div class="maskBox">
+        <div class="head"></div>
+        <div class="main"></div>
+        <div class="btns flex ">
+            <div class="btn btn-cancel">取消</div>
+            <div class="btn btn-sure">确认</div>
+        </div>
+    </div>
+</section>
+<!--mask的默认dom-->
+<section class="mask-hide" style="display: none;">
+    <div class="maskBox">
+        <div class="head"></div>
+        <div class="main"></div>
+        <div class="btns flex ">
+            <div class="btn btn-cancel">取消</div>
+            <div class="btn btn-sure">确认</div>
+        </div>
+    </div>
+</section>
+<script src="js/zepto.min.js"></script>
+<script src="js/mask.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

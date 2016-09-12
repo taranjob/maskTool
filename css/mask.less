@@ -1,0 +1,99 @@
+@px: 1/18.75rem;
+@_px: @px/2rem;
+/* Mask */
+.mask {
+    position: fixed; top: 0; left: 0; background: rgba(0, 0, 0, .7);
+    width: 100%; height: 100%; z-index: 569; display: none;
+.maskBox{
+    min-width: 80%;
+    max-width: 86%;
+    margin:0 auto;
+    border-radius: 10*@_px;
+    background-color: #fff;
+    color: #000;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+
+.head{
+    height: 90*@_px;
+    line-height: 90*@_px;
+    font-size: 29*@_px;
+    width: 100%;
+    padding: 0 15*@_px;
+    border-bottom: 1px solid rgba(144,144,144,0.2);
+    text-align: center;
+    font-weight: bold;
+}
+.main{
+    padding: 50*@_px 30*@_px;
+    font-size: 29*@_px;
+
+}
+.btns{
+
+    text-align: center;
+.btn{
+    font-size: 29*@_px;
+    height: 100*@_px;
+    line-height: 100*@_px;
+    width: 100%;
+    float: left;
+
+
+
+}
+.btn-cancel{
+    display: none;
+}
+.btn.btn-sure{
+    background-color: #e60045;
+    color: #fff;
+}
+
+}
+.btns.sh-cancel{
+.btn{
+    width: 50%;
+}
+.btn-cancel{
+    display: block;
+}
+}
+}
+.imgbig{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    width: 750*@_px;
+    height: 770*@_px;
+    margin: 0 auto;
+    border: 1px solid #f7f7f7;
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+//background-image: url("http://192.168.1.204/fileserver/images/1464663804408099897.jpeg");
+    background-color: #efefef;
+}
+.ewBox{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    width: 70%;
+//height: 650*@_px;
+    background-color: #fff;
+    font-size: 29*@_px;
+    padding: 10*@_px;
+    color: #000;
+.ew{
+    width: 100%;
+}
+.text{
+    padding: 10*@_px;
+}
+}
+}
