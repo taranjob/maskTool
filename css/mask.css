@@ -72,20 +72,3 @@
   background-repeat: no-repeat;
   background-color: #efefef;
 }
-.mask .ewBox {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  width: 70%;
-  background-color: #fff;
-  font-size: 0.77333333rem;
-  padding: 0.26666667rem;
-  color: #000;
-}
-.mask .ewBox .ew {
-  width: 100%;
-}
-.mask .ewBox .text {
-  padding: 0.26666667rem;
-}
